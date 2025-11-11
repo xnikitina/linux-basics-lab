@@ -69,12 +69,13 @@ bash commands/02_navidation.sh
 This script introduces the core directories of a Linux system and explains their purpose. It uses simple `ls` and `echo` commands to display contents and describe each location. Learners will gain a foundational understanding of where configuration files, user data, system binaries, libraries, and temporary files are stored.
 
 Covered directories:
-- `/home` – user home directories
-- `/etc` – system configuration files
-- `/lib` – shared libraries for system programs
-- `/mnt` – mount point for external devices
-- `/tmp` – temporary files
-- `/bin` – essential command binaries
+- `/home – user home directories`
+- `/etc – system configuration files`
+- `/lib – shared libraries for system programs`
+- `/mnt – mount point for external devices`
+- `/tmp – temporary files`
+- `/bin – essential command binaries`
+
 [00_filesystem.sh](commands/00_filesystem.sh)
 
 ### Package Management
@@ -82,6 +83,7 @@ Learn how to manage software packages using `apt` commands:
 - `apt install`
 - `apt remove`
 - `apt list --installed`  
+
 [01_package_management.sh](commands/01_package_management.sh)
 
 ### File Navigation  
@@ -90,6 +92,7 @@ Explore how to move through the filesystem and list contents:
 - `cd`
 - `ls`, `ls -l`, `ls -a`
 - `clear`  
+
 [02_navigation.sh](commands/02_navigation.sh)
 
 ### Permissions  
@@ -97,6 +100,7 @@ Understand file permissions and how to modify them:
 - `chmod` (symbolic and numeric modes)
 - `chown`
 - `umask`  
+
 [03_permissions.sh](commands/03_permissions.sh)
 
 ### File Handling  
@@ -105,6 +109,7 @@ Learn how to create, move, copy, and edit files and directories:
 - `mkdir`, `rmdir`
 - `rm`, `mv`, `cp`
 - `nano`, `cat`  
+
 [04_file_handling.sh](commands/04_file_handling.sh)
 
 ### Redirection & Pipes
