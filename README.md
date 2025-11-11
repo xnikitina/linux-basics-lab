@@ -37,6 +37,59 @@ linux-basics-lab/
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourname/linux-basics-lab.git
+git clone https://github.com/xnikitina/linux-basics-lab.git
 cd linux-basics-lab
+```
 
+### Step 2: Run the setup script
+
+- Create test directories and files
+- Set permissions
+- Make all command scripts executable
+
+```bash
+bash setup.sh
+```
+
+### Step 3: Run all command scripts
+
+```bash
+bash run_all.sh
+```
+Or run individual scripts:
+
+```bash
+bash commands/02_navidation.sh
+```
+
+## What You’ll Learn
+
+### Package Management  
+Learn how to manage software packages using `apt` commands:
+- `apt install`
+- `apt remove`
+- `apt list --installed`  
+[01_package_management.sh](commands/01_package_management.sh)
+
+### File Navigation  
+Explore how to move through the filesystem and list contents:
+- `pwd`
+- `cd`
+- `ls`, `ls -l`, `ls -a`
+- `clear`  
+[02_navigation.sh](commands/02_navigation.sh)
+
+### Permissions  
+Understand file permissions and how to modify them:
+- `chmod` (symbolic and numeric modes)
+- `chown`
+- `umask`  
+[03_permissions.sh](commands/03_permissions.sh)
+
+### File Handling  
+Learn how to create, move, copy, and edit files and directories:
+- `touch`
+- `mkdir`, `rmdir`
+- `rm`, `mv`, `cp`
+- `nano`, `cat`  
+[04_file_handling.sh](commands/04_file_handling.sh)
