@@ -64,7 +64,20 @@ bash commands/02_navidation.sh
 
 ## What You’ll Learn
 
-### Package Management  
+### Exploring the Linux Directory Structure
+
+This script introduces the core directories of a Linux system and explains their purpose. It uses simple `ls` and `echo` commands to display contents and describe each location. Learners will gain a foundational understanding of where configuration files, user data, system binaries, libraries, and temporary files are stored.
+
+Covered directories:
+- `/home` – user home directories
+- `/etc` – system configuration files
+- `/lib` – shared libraries for system programs
+- `/mnt` – mount point for external devices
+- `/tmp` – temporary files
+- `/bin` – essential command binaries
+[00_filesystem.sh](commands/00_filesystem.sh)
+
+### Package Management
 Learn how to manage software packages using `apt` commands:
 - `apt install`
 - `apt remove`
