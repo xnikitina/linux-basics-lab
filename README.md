@@ -93,3 +93,48 @@ Learn how to create, move, copy, and edit files and directories:
 - `rm`, `mv`, `cp`
 - `nano`, `cat`  
 [04_file_handling.sh](commands/04_file_handling.sh)
+
+### Redirection & Pipes
+Redirecting output and chaining commands:
+- `>` (overwrite)
+- `>>` (append)
+- `|` (pipe)
+- `tee
+
+### Searching & Filtering
+Searching and filtering content in files and across the filesystem:
+- `grep`
+- `find` with:
+  - `-name`
+  - `-iname`
+  - `-mtime`
+  - `-mmin`
+- `head`
+- `tail`
+- `less`
+- Wildcards: `*`
+
+### Users & Groups
+Managing users and groups:
+- `useradd`
+- `userdel`
+- `passwd`
+- `groups`
+- `usermod`
+- `chown`
+
+### Help & Documentation
+Accessing built-in help and command documentation:
+- `man`
+- `whatis`
+- `apropos`
+
+### Linux Filesystem Structure
+Understanding key directories in the Linux system:
+- `/home`
+- `/etc`
+- `/lib`
+- `/mnt`
+- `/tmp`
+- `/bin`
+
